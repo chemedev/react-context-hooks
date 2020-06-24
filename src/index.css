@@ -46,16 +46,44 @@ body {
   opacity: 0.7;
   text-decoration: line-through;
 }
-.book-list .title{
+.book-list .title {
   font-weight: bold;
-  color:#fff;
+  color: #fff;
   font-size: 1.2em;
 }
-.book-list .author{
-  font-size: .9em;
+.book-list .author {
+  font-size: 0.9em;
   color: #ddd;
 }
-.empty{
+.empty {
   padding: 20px;
   text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #3c1f3c;
+  color: #fff;
+  border: 0;
+}
+
+input[type='submit'] {
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+input[type='submit']:hover {
+  opacity: 0.7;
 }
